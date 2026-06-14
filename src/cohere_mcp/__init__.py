@@ -9,7 +9,7 @@ Credentials provided by clients at runtime via DAuth token exchange.
 
 from __future__ import annotations
 
-from cohere.config import create_cohere_connection
-from cohere.tools import cohere_tools
+from cohere_mcp.config import create_cohere_connection
+from cohere_mcp.tools import cohere_tools
 
 __all__ = ["create_cohere_connection", "cohere_tools"]

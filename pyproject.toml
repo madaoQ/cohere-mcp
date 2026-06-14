@@ -43,6 +43,9 @@ dependencies = [
     "uvloop>=0.22.1; platform_system != 'Windows'",
 ]
 
+[project.scripts]
+cohere-mcp = "cohere_mcp.main:create_server"
+
 # --- PROJECT URLS ---
 
 [project.urls]
@@ -77,7 +80,7 @@ dev = [
 
 [tool.uv]
 preview = true
-package = false
+package = true
 default-groups = ["runtime"]
 cache-dir = ".cache/uv"
 compile-bytecode = true

@@ -9,7 +9,7 @@ from typing import Any
 
 from dedalus_mcp import HttpMethod, HttpRequest, get_context
 
-from cohere.types import JSONObject
+from cohere_mcp.types import JSONObject
 
 
 def _build_url(path: str, **params: Any) -> str:

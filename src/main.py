@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 from dedalus_mcp import MCPServer
 from dedalus_mcp.server import TransportSecuritySettings
 
-from cohere import create_cohere_connection, cohere_tools
+from cohere_mcp import create_cohere_connection, cohere_tools
 
 load_dotenv()
 

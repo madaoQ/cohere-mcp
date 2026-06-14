@@ -8,9 +8,9 @@ from __future__ import annotations
 from dedalus_mcp import HttpMethod, tool
 from dedalus_mcp.types import ToolAnnotations
 
-from cohere.guards import validate_model, validate_text
-from cohere.request import request
-from cohere.types import JSONObject
+from cohere_mcp.guards import validate_model, validate_text
+from cohere_mcp.request import request
+from cohere_mcp.types import JSONObject
 
 
 @tool(

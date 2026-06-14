@@ -14,12 +14,12 @@ Modules:
 
 from __future__ import annotations
 
-from cohere.tools.chat import chat_tools
-from cohere.tools.classify import classify_tools
-from cohere.tools.embed import embed_tools
-from cohere.tools.models import model_tools
-from cohere.tools.rerank import rerank_tools
-from cohere.tools.summarize import summarize_tools
+from cohere_mcp.tools.chat import chat_tools
+from cohere_mcp.tools.classify import classify_tools
+from cohere_mcp.tools.embed import embed_tools
+from cohere_mcp.tools.models import model_tools
+from cohere_mcp.tools.rerank import rerank_tools
+from cohere_mcp.tools.summarize import summarize_tools
 
 cohere_tools = [
     *chat_tools,
